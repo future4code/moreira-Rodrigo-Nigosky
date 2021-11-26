@@ -1,0 +1,10 @@
+1.lasanha
+2.pizza
+3.macarronada
+4.camarao
+5.feijoada
+6.mouse
+7.bolos
+8.saladas
+9.hamburgers
+10.frangos
