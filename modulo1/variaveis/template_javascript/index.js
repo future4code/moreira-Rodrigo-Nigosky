@@ -33,12 +33,16 @@ console.log ("Olá", nome, "você tem", idade, "anos")*/
 
 //****exercicio 2 codigo
 
-/*const roupaAzul = "sim"
-const carroVerde = "nao"
-const casaBranca = "sim"
-console.log ("Você está usando uma roupa azul hoje?", roupaAzul)
-console.log ("Você tem um carro verde?", carroVerde)
-console.log ("Você tem uma casa branca?", casaBranca)*/
+/*let pergunta1 = "Voce esta usando roupa azul hoje?"
+let pergunta2 = "Você está usando uma roupa azul hoje?"
+let pergunta3 = "Você tem uma casa branca?"
+let resposta1 = "Sim"
+let resposta2 = "Não"
+let resposta3 = "Sim"
+console.log(pergunta1, "-", resposta1)
+console.log(pergunta2, "-", resposta2)
+console.log(pergunta3, "-", resposta3)*/
+
 
 
 //****exercicio 3 codigo
