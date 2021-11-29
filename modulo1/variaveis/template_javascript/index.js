@@ -56,9 +56,9 @@ console.log("O novo valor de b é", b) // O novo valor de b é 10*/
 
 //****desafio
 
-/*const numero1 = prompt ("coloque um numero X")
-const numero2 = prompt ("coloque um numero Y")
-const soma = numero1 + numero2
+/*let numero1 = Number(prompt ("coloque um numero X"))
+let numero2 = Number(prompt ("coloque um numero Y"))
+let soma = numero1 + numero2
 console.log (soma)
 console.log(numero1 * numero2)*/
 
