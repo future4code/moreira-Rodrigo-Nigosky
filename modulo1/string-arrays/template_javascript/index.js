@@ -37,53 +37,53 @@ console.log (comida) */
 
 
 //b.
-/* const comidaFrase = ("Essas são as minhas comidas preferidas: ")
-console.log (comidaFrase)
-
-let comidafav1 = comida[4]
-let comidafav2 = comida[3]
-let comidafav3 = comida[2]
-let comidafav4 = comida[1]
-let comidafav5 = comida[0]
-
-console.log (comidafav1)
-console.log (comidafav2)
-console.log (comidafav3)
-console.log (comidafav4)
-console.log (comidafav5)  */
-
-//c. 
-
-/* const comida = ["frango", "pizza", "bolo", "carne", "peixe"]
+/* let comida = ["frango", "pizza", "bolo", "carne", "peixe"]
 console.log (comida)
 
 const comidaUsuario = prompt ("Qual sua comida favorita?")
 
-let comidafav1 = comida[4]
-let comidafav2 = comidaUsuario
-let comidafav3 = comida[2]
-let comidafav4 = comida[1]
-let comidafav5 = comida[0]
+console.log (`Essas são suas comidas preferidas: 
+${comida[0]}, 
+${comida[1]}, 
+${comida[2]}, 
+${comida[3]}, 
+${comida[4]} ` 
+)
+*/
 
-console.log (comidafav1)
-console.log (comidafav2)
-console.log (comidafav3)
-console.log (comidafav4)
-console.log (comidafav5) 
+
+//c. 
+/* 
+let comida = ["frango", "pizza", "bolo", "carne", "peixe"]
+console.log (comida)
+
+const comidaUsuario = prompt ("Qual sua comida favorita?")
+
+console.log (`Essas são suas comidas preferidas: 
+${comida[0]}, 
+${comida[1]}, 
+${comida[2]}, 
+${comida[3]}, 
+${comida[4]} `
+)
+
+comida[1] = comidaUsuario
+console.log(comida)
+
  */
 
 
 //**********EXERCICIO 3******
-/* 
+ 
 //a.
-let listaDeTarefas = null
+/* let listaDeTarefas = []
 
 //b.
 const tarefasUsuario1 = prompt("cite uma tarefa que voce precise realizar no dia a dia") 
 const tarefasUsuario2 = prompt("cite outra tarefa que voce precise realizar no dia a dia") 
 const tarefasUsuario3 = prompt("cite uma ultima tarefa que voce precise realizar no dia a dia") 
 
-listaDeTarefas = [tarefasUsuario1,tarefasUsuario2, tarefasUsuario3]
+listaDeTarefas.push(tarefasUsuario1,tarefasUsuario2, tarefasUsuario3)
 
 //c.
 console.log (listaDeTarefas)
@@ -96,8 +96,8 @@ listaDeTarefasNova = listaDeTarefas.splice(tarefaRealizada, 1)
 
 //f.
 console.log (listaDeTarefas) 
-console.log (listaDeTarefasNova)    
-     */
+console.log (listaDeTarefasNova)     */
+     
 
 
 //****EXERCICIO DESAFIO
