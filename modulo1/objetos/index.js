@@ -19,3 +19,57 @@ index.js:21 {nome: 'Jubo', idade: 3, raca: 'SRD'} */
 //Exercícios de escrita de código
 // 1a)
 
+const pessoa = {
+    nome: "Ana",
+    apelidos: ["nana", "anan", "anita"]
+}
+function imprimeMensagem(meusApelidos) {
+    console.log (`Eu sou ${meusApelidos.nome}, mas pode me chamar de: ${meusApelidos.apelidos[0]}, ${meusApelidos.apelidos[1]} , ${meusApelidos.apelidos[2]}` )
+}
+
+
+//b
+const novaPessoa = {
+    ...pessoa,
+    apelidos: ["xxxx", "xx11", "xx22"]
+
+}
+
+
+
+
+
+//2a  
+
+const pessoa1 = {
+    nome: "Lais",
+    idade: 27,
+    profissao: "CX"
+}
+
+const pessoa2 = {
+    nome: "Pedro",
+    idade: 23,
+    profissao: "Monitor"
+}
+//2b
+
+function pessoaInfo(pessoa){
+    let array = []
+    array.push(pessoa.nome)
+    array.push(pessoa.nome.length)
+    array.push(pessoa.idade)
+    array.push(pessoa.profissao)
+    array.push(pessoa.profissao.length)
+
+
+    return array
+}
+console.log (pessoaInfo(pessoa1))
+console.log (pessoaInfo(pessoa2))
+
+
+//3
+
+
+
