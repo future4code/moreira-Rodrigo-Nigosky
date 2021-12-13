@@ -82,13 +82,28 @@ for (let i = 0; i < array.length; i++){
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-        let array = [num1, num2]
-        arrayOrdenado = array.sort(function(a, b) {
-            return a - b;
-          })
-    return array
 
+    let numeroMaior
+    let maiorDivisivel
+    let numeroMenor
 
+    if(num1>num2){
+        numeroMaior = num1
+        numeroMenor = num2
+    }else{
+        numeroMaior = num2
+        numeroMenor = num1
+    }
+
+    maiorDivisivel = numeroMaior % numeroMenor === 0
+    
+    const diferença = numeroMaior - numeroMenor
+        
+    return {
+        maiorNumero: numeroMaior ,    
+        maiorDivisivelPorMenor: maiorDivisivel ,
+        diferenca: diferença
+}
 }
 
 // EXERCÍCIO 08
@@ -114,7 +129,8 @@ function retornaChamadaDeFilme(filme) {
         diretor: 'David Frankel',
         atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
     }
-        return `"Venha assistir ao filme ${filme.nome} , de ${filme.ano} , dirigido por ${filme.diretor} e estrelado por ${filme.atores}" `
+    const frase = `"Venha assistir ao filme ${filme.nome} , de ${filme.ano} , dirigido por ${filme.diretor} e estrelado por ${filme.atores}" `
+        return frase
 }
 
 // EXERCÍCIO 12
@@ -134,7 +150,15 @@ return novaPessoa
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+
+        let pessoasAutorizadas =[]
+
+        for(let pessoa of pessoas){
+            if ({pessoa.altura > 1.5 && pessoa.idade > 14 && pessoa.idade < 60});
+        }
+     
+   return pessoasAutorizadas
+
 }
 
 // EXERCÍCIO 13B
@@ -143,7 +167,22 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 }
 
 // EXERCÍCIO 14
+
 function retornaContasComSaldoAtualizado(contas) {
+ 
+    array.forEach(contaCliente => {
+        let totalDeCompras = 0
+
+        contaCliente.compras.forEach((gasto) =>{
+            totalDeCompras = totalDeCompras + gasto
+        
+        })
+
+        contaCliente.saldoTotal = contaCliente.saldoTotal - totalDeCompras
+        contaCliente.compras = []
+    });
+
+    return contas
 
 }
 
