@@ -1,4 +1,4 @@
-~~~
+```
 
 function calculaSalario(qtdeCarrosVendidos, valorTotalVendas) {
  let salarioFinal
@@ -10,4 +10,4 @@ function calculaSalario(qtdeCarrosVendidos, valorTotalVendas) {
 return salarioFinal
 }
 
-~~~
+```

@@ -1,0 +1,40 @@
+
+
+h1 { 
+    color: blue
+}
+
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+
+
+.div-cinza-claro{ 
+    background-color: lightgrey;
+    display: inline;
+    margin-right: 5px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+     }
+
+
+
+
+th{
+    background-color: rgb(177, 177, 216);
+}
+
+td{
+    background-color: orange;
+}
+
+.table-data{
+    font-weight: bold;
+}
