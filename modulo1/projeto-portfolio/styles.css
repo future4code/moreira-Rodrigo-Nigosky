@@ -1,0 +1,49 @@
+{
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    border: 1px solid black;
+    padding: 15px;
+    padding-top: 0;
+    
+  }
+  
+  section .container-html > h3, section .container-js p {
+    color: violet;
+  }
+
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  
+    margin-top: 36px;
+    padding: 12px;
+    height: 36px;
+    background-color: BLACK;
+    color: white;
+    font-weight: bold;
+  }
+
+  footer {
+    z-index: 2;
+  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  
+    width: 100%;
+    padding: 12px;
+    height: 36px;
+    background-color: BLACK;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer-space {
+    height: 36px;
+    padding: 12px;
+  }
