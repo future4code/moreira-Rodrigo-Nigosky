@@ -1,4 +1,3 @@
-import './App.css';
 import React from "react";
 import Etapa1 from './components/etapa1';
 import Etapa2 from './components/etapa2';

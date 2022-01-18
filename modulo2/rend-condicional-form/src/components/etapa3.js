@@ -1,4 +1,3 @@
-import './App.css';
 import React from "react";
 
 export default class Etapa3 extends React.Component {
@@ -33,7 +32,7 @@ export default class Etapa3 extends React.Component {
          </label>
        </fieldset>  
        
-       <button type="submit">Enviar</button>
+       
       </form>
 
     </div>

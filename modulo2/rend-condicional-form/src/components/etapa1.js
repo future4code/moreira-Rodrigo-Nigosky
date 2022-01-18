@@ -1,4 +1,3 @@
-import './App.css';
 import React from "react";
 
 export default class Etapa1 extends React.Component {
@@ -34,12 +33,13 @@ export default class Etapa1 extends React.Component {
        <fieldset>
          <label>
            <p>4. Qual a sua escolaridade?</p>
-           <input escolaridade="escolaridade" />
+           <select escolaridade = "escolaridade">
            <option value="">--Escolha uma opção--</option>
                <option value="medio1">Ensino Médio Incompleto</option>
                <option value="medio2">Ensino Médio Completo</option>
                <option value="superior1">Ensino Superior Incompleto</option>
                <option value="superior2">Ensino Superior Completo</option>
+               </select>
          </label>
        </fieldset>
        
