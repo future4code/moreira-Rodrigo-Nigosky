@@ -1,8 +1,8 @@
-export const goToLogin = (navigate) => {
+export const goToLoginPage = (navigate) => {
     navigate ("/login")
 }
 
-export const goToSignUp = (navigate) => {
+export const goToSignUpPage = (navigate) => {
     navigate ("/cadastro")
 }
 

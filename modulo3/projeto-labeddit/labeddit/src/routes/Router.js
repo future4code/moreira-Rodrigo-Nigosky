@@ -6,11 +6,13 @@ import PostDetailPage from "../pages/PostDetailPage/PostDetailPage"
 import PostsListPage from "../pages/PostsListPage/PostsListPage"
 import SignUpPage from "../pages/SignUpPage/SignUpPage"
 import ErrorPage from "../pages/ErrorPage/ErrorPage"
+import Header from "../components/Header/Header"
 
 
 const Routers = () => {
     return (
         <Router>
+            <Header />
             <Routes>
 
             <Route path = "/login" element = {<LoginPage />} />
