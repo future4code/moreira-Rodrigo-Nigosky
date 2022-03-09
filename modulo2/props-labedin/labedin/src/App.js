@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.css';npm 
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
