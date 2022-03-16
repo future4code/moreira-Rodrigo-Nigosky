@@ -156,8 +156,8 @@ class Post extends React.Component {
           valorContador={this.state.numeroComentarios}
         />
       </PostFooter>
-      {componenteCompartilhar}
-      {componenteComentario}
+      {componenteCompartilhar} 
+      {componenteComentario}           
     </PostContainer>
   }
 }
