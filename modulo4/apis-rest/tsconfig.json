@@ -1,0 +1,13 @@
+"target": "es6", 
+{...}
+"sourceMap": true,
+{...}
+"outDir": "./build", 
+"rootDir" : "./src", 
+{...}
+"removeComments": true,
+ 
+// target vem por padrão como es5
+// outDir especifica a pasta em que serão salvos os arquivos transpilados
+// rootDir especifica a pasta raíz do projeto
+// removeComments remove comentários dos arquivos transpilados 
